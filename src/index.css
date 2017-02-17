@@ -1,0 +1,64 @@
+.container {
+  margin-top: 50px;
+}
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.material-icons {
+  font-size: 7rem;
+  color: #ee6e73;
+}
+
+.promo-caption {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+p {
+  color: rgba(0,0,0,0.71);
+}
+
+.btn {
+  margin: 10px;
+}
+
+.pink {
+  color: #ee6e73;
+}
+
+/*----------------------- form style ---------------------------*/
+
+.checkbox-pink[type="radio"].filled-in:checked + label:after{
+     border: 2px solid rgb(238, 110, 115);
+     background-color: rgb(238, 110, 115);
+}
+.input-field input[type=text]:focus + label {
+     color: rgb(238, 110, 115);
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid rgb(238, 110, 115);
+     box-shadow: 0 1px 0 0 rgb(238, 110, 115);
+}
+.input-field input[type=text].valid {
+     border-bottom: 1px solid rgb(238, 110, 115);
+     box-shadow: 0 1px 0 0 rgb(238, 110, 115);
+   }
+   /* invalid color */
+.input-field input[type=text].invalid {
+ border-bottom: 1px solid rgb(238, 110, 115);
+ box-shadow: 0 1px 0 0 rgb(238, 110, 115);
+}
+.input-field textarea[name=memo]:focus + label {
+     color: rgb(238, 110, 115);
+}
+
+.input-field textarea[name=memo]:focus {
+     border-bottom: 1px solid rgb(238, 110, 115);
+     box-shadow: 0 1px 0 0 rgb(238, 110, 115);
+}
